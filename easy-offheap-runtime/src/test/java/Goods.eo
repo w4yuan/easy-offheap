@@ -1,0 +1,30 @@
+
+
+struct Goods {
+
+  long a = 1 def 1 ;
+  string b = 2;
+  byte c = 3 def 2;
+  boolean d = 4 def true;
+  float e = 5 def 0.1;
+  double f = 6 def 0.2;
+  int g = 7 def 1;
+  repeated long h = 8;
+  repeated byte i = 9;
+  repeated boolean j = 10;
+  repeated float k = 11;
+  repeated double l = 12;
+  repeated int m = 13;
+  Extend n = 14;  
+  origin double o = 15;
+  origin repeated int p = 16;
+  Extend q = 17;
+  char r = 18 def a ;
+}
+
+struct Extend {
+
+  int a = 1;
+
+  repeated boolean b = 2;
+}
