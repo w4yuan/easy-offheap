@@ -1,0 +1,35 @@
+# Eclipse
+.classpath
+.project
+.settings
+
+# IDEA
+*.iml
+*.iws
+.idea
+
+# Maven
+target
+
+# System
+.DS_Store
+Thumbs.db
+
+# JRebel
+rebel.xml
+
+# Temp files
+*.log
+*.tmp
+jmh-result.json
+hs_err_pid*
+
+# Package files
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+.flattened-pom.xml
