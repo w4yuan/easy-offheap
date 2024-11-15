@@ -12,6 +12,7 @@
         <module>easy-offheap-generator</module>
         <module>easy-offheap-runtime</module>
         <module>easy-offheap-plugin</module>
+        <module>easy-offheap-example</module>
     </modules>
     <version>1.0-SNAPSHOT</version>
 

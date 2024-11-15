@@ -1,6 +1,10 @@
-package w4yuan;
+package w4yuan.easy_offheap;
 
 
+import w4yuan.CleanTask;
+import w4yuan.CustomCleaner;
+import w4yuan.ReferenceUtils;
+import w4yuan.UnsafeMemoryManager;
 import w4yuan.offheap.OffHeapBooleanArray;
 
 public class Extend {

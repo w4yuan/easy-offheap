@@ -1,7 +1,6 @@
-package w4yuan;
-
-
+package w4yuan.easy_offheap;
 import w4yuan.offheap.*;
+import w4yuan.*;
 
 public class Goods {
 

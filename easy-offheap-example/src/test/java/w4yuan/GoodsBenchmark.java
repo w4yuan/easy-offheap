@@ -7,6 +7,7 @@ import org.openjdk.jmh.runner.Runner;
 import org.openjdk.jmh.runner.RunnerException;
 import org.openjdk.jmh.runner.options.Options;
 import org.openjdk.jmh.runner.options.OptionsBuilder;
+import w4yuan.easy_offheap.Goods;
 import w4yuan.offheap.OffHeapIntArray;
 
 import java.util.concurrent.TimeUnit;

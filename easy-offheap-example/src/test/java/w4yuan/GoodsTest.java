@@ -2,6 +2,8 @@ package w4yuan;
 
 import org.junit.Assert;
 import org.junit.Test;
+import w4yuan.easy_offheap.Extend;
+import w4yuan.easy_offheap.Goods;
 
 public class GoodsTest {
 
