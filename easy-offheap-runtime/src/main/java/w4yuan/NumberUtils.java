@@ -45,19 +45,4 @@ public class NumberUtils {
 		return value;
 	}
 
-	public static void booleanToBytes(byte[] array, int startIndex, boolean value) {
-		array[startIndex] = (byte) (value ? 1 : 0);
-	}
-
-	public static boolean bytesToBoolean(byte[] array, int startIndex) {
-		return array[startIndex] > 0;
-	}
-
-	public static void main(String[] args) {
-		byte[] b = new byte[8];
-		NumberUtils.charToBytes(b, 0, 'a');
-		System.out.println(NumberUtils.bytesToChar(b, 0));
-	}
-
-
 }

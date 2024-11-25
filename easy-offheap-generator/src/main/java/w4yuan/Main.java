@@ -14,7 +14,7 @@ public class Main {
 	}
 
 	public static void generate(String[] args) throws TemplateException, IOException {
-		String base = null;
+		String base;
 		List<String> inputFiles = new ArrayList<>(8);
 
 		if (args == null || args.length == 0) {
@@ -48,12 +48,12 @@ public class Main {
 	private static File getFile(String inputFile, List<String> inputFiles) {
 		File f = new File(inputFile);
 		if (!f.exists()) {
-			throw new RuntimeException("文件不存在");
+			throw new TerminationException("文件不存在");
 		}
 		if (f.isDirectory()) {
 			File[] files = f.listFiles();
 			if (files == null) {
-				throw new RuntimeException("文件夹下面没有文件");
+				throw new TerminationException("文件夹下面没有文件");
 			}
 			for (File file : files) {
 				// 识别 eo 文件
